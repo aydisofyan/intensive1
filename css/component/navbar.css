@@ -1,16 +1,19 @@
 .navbar {
-    max-width: 1300px;
+    max-width: var(--max-width);
     margin: auto;
-    padding: 40px;
+    padding: 1.5rem;
     display: flex;
     justify-content: space-between;
-    
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 
 }
 
 .navbar .navbar_menu {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 .navbar_menu a {
     color: black;
@@ -19,15 +22,25 @@
 
 .search input {
     border: none;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 8px; 
+    border-radius: 0px 5px 5px 0px;
+    width: auto;
+    height: 30px;
     box-sizing: border-box;
-    background-color: gray;
+    background-color: rgb(212, 212, 212);
 }
 
-.search button i {
+.search button  {
     border: none;
-    height: 10px;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 0px 5px 5px 0px;
+    
 }
 
+
+i {
+    color: white;
+}
 

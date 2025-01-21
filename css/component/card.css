@@ -1,0 +1,20 @@
+.card {
+    width: 300px;
+    margin: 20px;
+
+}
+.card .category {
+    padding: 10px;
+    font-size: 12px;
+    
+
+}
+
+.category img {
+    width: 100%;
+}
+
+.post {
+    display: grid;
+    
+}
